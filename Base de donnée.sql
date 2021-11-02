@@ -21,10 +21,10 @@ CREATE TABLE Film
 CREATE TABLE Actor 
 (
 	ActorId INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
-	FirstName VARCHAR(80) NOT NULL,
-	LastName VARCHAR(80) NOT NULL,
-	Country VARCHAR(80) NOT NULL,
-	BirthDay DATE NOT NULL
+	ActorFirstName VARCHAR(80) NOT NULL,
+	ActorLastName VARCHAR(80) NOT NULL,
+	ActorCountry VARCHAR(80) NOT NULL,
+	ActorBirthDay DATE NOT NULL
 
 )
 
@@ -109,7 +109,7 @@ VALUES ('1','The Goonies','1985','1h54','Enfant/Aventure'),
 ('5','Iron Man','2008','2h06','Action/Aventure'),
 ('5','Captain America: First Avenger','2011','2h04','Action/Aventure')
 
-INSERT INTO Actor(FirstName, LastName, Birthday, Country)
+INSERT INTO Actor(ActorFirstName, ActorLastName, ActorBirthday, ActorCountry)
 VALUES ('Sean','Astin','25/02/1971','USA'),
 ('Sam','Neill','14/09/1947','UK'),
 ('John','Travolta','18/02/1954','USA'),
@@ -122,7 +122,10 @@ VALUES ('Sean','Astin','25/02/1971','USA'),
 ('Chris','Evans','13/06/1981','USA')
 
 INSERT INTO Role(ActorId, FilmId, Name)
-VALUES ('1', '1', 'Mikey'),
+VALUES ('2', '5', 'Jeffrey Aston'),
+('2', '1', 'Noah Park'),
+('10', '4', 'Sheriff Dan'),
+('8', '3', 'Rick Jones')
 ('2', '2', 'Alan Grant'),
 ('3', '3', 'Vincent Vega'),
 ('4', '4', 'Django'),
@@ -345,3 +348,4 @@ VALUES ('1', 'Available'),
 ('48', 'Available'),
 ('49', 'Available'),
 ('50', 'Unavailable')
+
