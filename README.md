@@ -18,8 +18,8 @@ voir le fichier "***Shéma BDD SQL.drawio***" (nécessite l'extansion **drawio**
 
 ---
 
-1) Créer une base SQLite et injecter votre modèle sur **TablePlus** : 
-2) 
+3) Créer une base SQLite et injecter votre modèle sur **TablePlus** : 
+ 
 ![](img/sqlite1.png)
 
 * Création de la base
@@ -36,7 +36,7 @@ voir le fichier "***Shéma BDD SQL.drawio***" (nécessite l'extansion **drawio**
 
 ---
 
-1) Peupler votre BDD avec des données de test réalistes 
+4) Peupler votre BDD avec des données de test réalistes 
 
 ![](img/peuplebdd.png)
 
