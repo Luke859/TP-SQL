@@ -151,8 +151,10 @@ voir le fichier "***Shéma BDD SQL.drawio***" (nécessite l'extansion **drawio**
 
 ***code :***
 
-a faire
+![](img/request_10.png)
 
 ***résultat :***
 
-a faire
+![](img/resp10.png)
+
+---
