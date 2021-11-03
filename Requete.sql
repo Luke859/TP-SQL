@@ -27,7 +27,7 @@ ORDER BY DATE DESC, Hour ASC
 ;
 
 -- 5ème requete 
-SELECT COUNT(ActorId) FROM Actor
+SELECT COUNT(ActorId) AS AllActors FROM Actor
 ;
 
 -- 6ème requete 
