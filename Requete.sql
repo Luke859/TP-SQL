@@ -63,4 +63,16 @@ GROUP BY Actor.ActorId
 SELECT * FROM ActorView
 ;
 -- 10ème requete 
-En cours
+CREATE TRIGGER reserve INSERT ON SpotCategory
+FOR EACH ROW 
+WHEN (new.SpotId = 1)
+BEGIN 
+	UPDATE SpotCategory
+	SET SpotType = "special"
+	WHERE SpotCategoryId = 1;
+END;
+
+SELECT Spot.SpotId, SpotType FROM SpotCategory
+INNER JOIN Spot ON SpotCategory.SpotCategoryId = Spot.SpotCategoryId
+INNER JOIN Reservation ON Spot.SpotId = Reservation.SpotId
+WHERE Spot.SpotId = 1
