@@ -125,7 +125,8 @@ INSERT INTO Role(ActorId, FilmId, Name)
 VALUES ('2', '5', 'Jeffrey Aston'),
 ('2', '1', 'Noah Park'),
 ('10', '4', 'Sheriff Dan'),
-('8', '3', 'Rick Jones')
+('8', '3', 'Rick Jones'),
+('1','1', 'Mikey'),
 ('2', '2', 'Alan Grant'),
 ('3', '3', 'Vincent Vega'),
 ('4', '4', 'Django'),
