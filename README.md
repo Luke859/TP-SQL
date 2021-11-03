@@ -1,6 +1,6 @@
 # TP-SQL
 ---
-![](img/logosql2.png) 
+![](img/logosql1.png) 
 
 ### ETAPE 1
 ---
