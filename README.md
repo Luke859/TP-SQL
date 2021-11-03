@@ -2,7 +2,7 @@
 ---
 ![](img/sql-logo.png) 
 
-Luke JONES / Arnaud Clavier
+Luke JONES / Arnaud CLAVIER
 
 ### ETAPE 1
 
