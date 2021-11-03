@@ -2,6 +2,8 @@
 ---
 ![](img/sql-logo.png) 
 
+Luke JONES / Arnaud Clavier
+
 ### ETAPE 1
 
 1) Etablir le «modèle relationnel» de données (les tables, etc.)
