@@ -1,5 +1,6 @@
 # TP-SQL
 ---
+![](img/logosql2.png) 
 
 ### ETAPE 1
 ---
