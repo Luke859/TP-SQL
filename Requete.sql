@@ -1,4 +1,4 @@
--- Premiere requête
+-- 1ère requête
 SELECT Date FROM Session
 INNER JOIN Film ON Session.FilmId = Film.FilmId
 INNER JOIN Role ON Film.FilmId = Role.FilmId
@@ -6,7 +6,7 @@ INNER JOIN Actor ON Role.ActorId = Actor.ActorId
 WHERE Actor.ActorId = 1
 ;
 
--- Deuxième requete
+-- 2ème requete
 SELECT FilmTitle FROM Film
 INNER JOIN Rate ON Film.FilmId = Rate.SpotCategoryId
 INNER JOIN Session ON Session.SessionId = Film.FilmId
@@ -14,7 +14,7 @@ WHERE Price < 10 AND Hour > '18h00'
 Incomplete !!!!
 ;
 
--- Troisième requete 
+-- 3ème requete 
 SELECT Name FROM Role
 WHERE ActorId = 2
 ORDER BY ActorId ASC
