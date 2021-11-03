@@ -7,30 +7,37 @@
 1) Etablir le «modèle relationnel» de données (les tables, etc.)
 
 voir le fichier "***Shéma BDD SQL.drawio***" (nécessite l'extansion **drawio**), : 
+
 ![](img/shémabdd.png)
 
 ---
 
 2) Créer le fichier SQL permettant d’implémenter votre modèle (encadré en rouge) :
+   
 ![](img/etap1.2.png)
 
 ---
 
-3) Créer une base SQLite et injecter votre modèle sur **TablePlus** : 
+1) Créer une base SQLite et injecter votre modèle sur **TablePlus** : 
+2) 
 ![](img/sqlite1.png)
 
 * Création de la base
+  
 ![](img/sqlite2.png)
 
 * Création des tables de la base :
+ 
 ![](img/createtable.png)
 
 * Mêmes choses pour les tables : **Film**, **Actor**, **Role**, **Session**, **Reservation**, **Rate**, **Spot**, **SessionCategory**, **SpotCategory**
+ 
 ![](img/rendertable.png)
 
 ---
 
-4) Peupler votre BDD avec des données de test réalistes 
+1) Peupler votre BDD avec des données de test réalistes 
+
 ![](img/peuplebdd.png)
 
 * On peuple les données de la BDD à la main, on fait la même chose pour les tables suivantes : (**Session**, **Role**, **Rate**, **SpotCategory**, **SessionCategory**, **Spot**, **Reservation**)
