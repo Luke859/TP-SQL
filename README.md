@@ -158,3 +158,10 @@ voir le fichier "***Shéma BDD SQL.drawio***" (nécessite l'extansion **drawio**
 ![](img/resp10.png)
 
 ---
+
+* Support de présentation : https://docs.google.com/presentation/d/1DvGIzFR1-VLBmuzPt_w0t_4QM_a4BTzEKqKiAh3oK6g/edit?usp=sharing
+
+* le modèle relationnel de la BDD = **Shema BDD SQL.drawio**
+* le fichier SQL de création de la BDD = **CreateDB.sql**
+* le fichier SQL des requêtes clientes = **Requete Client.sql**
+* les tests des requêtes clientes = **README.md** (ETAPE 2)
