@@ -4,7 +4,7 @@
 
 Luke JONES / Arnaud CLAVIER
 
-### ETAPE 1
+### ETAPE 1 - Création BDD, Injection données, Création Modèle Relationnel
 
 1) Etablir le «modèle relationnel» de données (les tables, etc.)
 
@@ -46,7 +46,7 @@ voir le fichier "***Shéma BDD SQL.drawio***" (nécessite l'extansion **drawio**
 
 
 ---
-### ETAPE 2
+### ETAPE 2 - Requêtes et Tests Clientes
 
 1) Donner les dates des séances (sans répétition) des films dans lesquels l'acteur 1 joue 
 
