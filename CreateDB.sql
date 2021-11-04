@@ -1,11 +1,12 @@
+-- Creation des tableaux vides 
+
 CREATE TABLE Producer
-	(
+(
 	ProducerId INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
 	FirstName VARCHAR(80) NOT NULL,
 	LastName VARCHAR(80) NOT NULL,
 	Country VARCHAR(80) NOT NULL
-
-	)
+)
 	
 CREATE TABLE Film
 (
@@ -89,6 +90,8 @@ CREATE TABLE Spot
 	CONSTRAINT fk_SpotCategory_SpotCategoryId FOREIGN KEY (SpotCategoryId) REFERENCES SpotCategory(SpotCategoryId)
 
 );
+
+-- Les données que l'on insert dans nos tableau créer au-dessus
 
 INSERT INTO Producer(FirstName, LastName, Country)
 VALUES ('Steven', 'Spielberg', 'USA'),
@@ -349,4 +352,3 @@ VALUES ('1', 'Available'),
 ('48', 'Available'),
 ('49', 'Available'),
 ('50', 'Unavailable')
-

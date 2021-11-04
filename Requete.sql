@@ -15,8 +15,8 @@ Incomplete !!!!
 ;
 
 -- 3ème requete 
-SELECT Name FROM Role
-WHERE ActorId = 2
+SELECT RoleName FROM Role
+WHERE ActorId = 4
 ORDER BY ActorId ASC
 ;
 
@@ -27,7 +27,7 @@ ORDER BY DATE DESC, Hour ASC
 ;
 
 -- 5ème requete 
-SELECT COUNT(ActorId) AS AllActors FROM Actor
+SELECT COUNT(ActorId) AS NumberOfActors FROM Actor
 ;
 
 -- 6ème requete 
