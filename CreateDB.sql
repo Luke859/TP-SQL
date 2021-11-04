@@ -91,7 +91,7 @@ CREATE TABLE Spot
 
 );
 
--- Les données que l'on insert dans nos tableau créer au-dessus
+-- Les données que l'on insert dans nos tableaux créer au-dessus
 
 INSERT INTO Producer(FirstName, LastName, Country)
 VALUES ('Steven', 'Spielberg', 'USA'),
